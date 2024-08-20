@@ -18,15 +18,6 @@ magnets = {
 }
 conductor = [0, 0, 0]
 
-# Define magnetic moments (directions)
-magnetic_moments = {
-    'top': [0, 0, 1],
-    'bottom1': [0, 0, -1],
-    'bottom2': [1, 0, -1],
-    'side1': [0, 1, 0],
-    'side2': [-1, 0, 0]
-}
-
 # Function to calculate magnetic force with an additional dimension
 def magnetic_force_4d(m1, m2, r, w):
     mu_0 = 4 * math.pi * 1e-7  # Vacuum permeability
